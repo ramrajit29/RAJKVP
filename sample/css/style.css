@@ -1,0 +1,70 @@
+.login_panel{
+    width: calc(520px - 60px);
+    height: 100vh;
+    display: block;
+    margin: 0;
+    padding: 0px 0px;
+    float: right;
+    background: rgba(0, 0, 0, 0.80);
+}
+
+.login_panel h2{
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+.logo_img img{
+    display: table;
+    text-align: center;
+}
+
+.field_box{
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    display: table;
+    position: relative;
+}
+.field_box_link{
+    width: 50%;
+    margin: 0;
+    padding: 10px 0 0 20px;
+    display: table;
+    position: relative;    
+}
+.field_box_link a{
+    text-decoration: underline !important;    
+    outline: none;
+    color: #fff !important;   
+}
+.field_box_link a:hover{
+    text-decoration: none !important;  
+    transition: 0.5sec;
+}
+.field_box input{
+    width: 80%;
+    padding: 10px 10px;
+    margin-left:10px;
+    outline:none;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.field_box input[type="button"] {
+    border: none;
+    outline: none;
+    height: 45px;
+    border: 0;
+    background:#2d8418;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.field_box input[type="button"]:hover{
+    background: #f8c104;
+    color: #fff;
+    transition: 0.5sec;
+}
